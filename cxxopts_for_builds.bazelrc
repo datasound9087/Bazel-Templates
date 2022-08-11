@@ -1,0 +1,8 @@
+# Overall compile options (why would you ever mess around with toolchains!)
+# Mainly compile with c++17
+
+# Windows 64
+build:win64 --cxxopt=/std:c++17
+
+# Linux 64
+build:linux64 --cxxopt=-std=c++17
